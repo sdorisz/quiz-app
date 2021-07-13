@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:rgb(80, 79, 79);
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:rgb(205, 216, 212);
+    color:gray;
+}
+
+h2, h1{
+    margin:10px;
+    color: cornflowerblue;
+}
+
+
+p{
+    display:inline;
+}
+
+hr{
+    margin: 10px 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board{
+    padding:3%;
+    width: 70%;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.questionboard{
+    max-height: 500px;
+    overflow: scroll;
+    padding: 10px;
+}
+
+
+#qusetion-input-field{
+    height: 30px;
+}
+
+.answer-inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:15px;
+}
+
+.answer-input-field{
+    width:90%;
+    height: 30px;
+}
+
+.input-field{
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    padding:5px;
+}
+
+.input-field:focus{
+    outline: none;
+}
+
+#new-question{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+button{
+    border:none;
+    padding-left: 3%;
+    background-color: aliceblue;
+    float:right;
+    font-style: italic;
+    font-weight: bold;
+    color:hsl(0, 58%, 58%);
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sendButton{
+    background-color: cornflowerblue;
+    margin:0 auto;
+    font-style:normal;
+    float:none;
+    padding:2%;
+    color:white;
+    cursor: pointer;
+    text-transform:uppercase;
+    border-radius: 5px;
+    margin:10px;
+}
+
+a{
+    margin: 10px 0;
+    text-decoration: none;
+    color:cornflowerblue;
+    font-weight: bold;
+}
